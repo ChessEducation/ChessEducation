@@ -5,28 +5,19 @@ html, body {
   user-select: none;
 }
 
-div.title{
-  text-align: right;
-  color: black;
-}
-
-div.nav{
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-div.rules{
-  position: absolute;
-  left: -6px;
-  top: 0px;
-}
-
 div.chess-board{
   position: relative;
-  top: 50px;
+  top: 15px;
   width: 100%;
   height: 100%;
+}
+
+div.ai-nav-text{
+  visibility: collapse;
+}
+  
+div.rules-nav-text{
+  visibility: collapse;
 }
 
 /* Chess Board Adjustment */
@@ -38,6 +29,22 @@ div.chess-board{
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
+}
+  
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -312,13 +319,29 @@ div.g7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:250px){
+@media (min-width:160px){
 .image-transition {
   width: 130px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
+}
+  
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -593,13 +616,29 @@ div.g7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:300px){
+@media (min-width:210px){
 .image-transition {
   width: 180px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
+}
+  
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -874,11 +913,27 @@ div.g7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:350px){
+@media (min-width:260px){
 .image-transition {
   width: 230px;
   display: block;
   margin-left: auto;
+}
+
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
 }
 
   /* Chess Piece Locations */
@@ -1155,11 +1210,27 @@ div.g7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:400px){
+@media (min-width:315px){
 .image-transition {
   width: 280px;
   display: block;
   margin-left: auto;
+}
+
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
 }
 
   /* Chess Piece Locations */
@@ -1453,11 +1524,27 @@ div.g7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:450px){
+@media (min-width:365px){
 .image-transition {
   width: 330px;
   display: block;
   margin-left: auto;
+}
+
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
 }
 
   /* Chess Piece Locations */
@@ -1734,13 +1821,29 @@ div.h7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:500px){
+@media (min-width:415px){
 .image-transition {
   width: 380px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
+}
+  
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -2015,13 +2118,29 @@ div.h7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:550px){
+@media (min-width:465px){
 .image-transition {
   width: 430px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
+}
+
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -2296,13 +2415,29 @@ div.h7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:600px){
+@media (min-width:515px){
 .image-transition {
   width: 480px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
+}
+  
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -2577,13 +2712,29 @@ div.h7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:650px){
+@media (min-width:560px){
 .image-transition {
   width: 530px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 130px;
+  width: 100px;
+  height: 100px;
+}
+
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -2858,13 +3009,29 @@ div.h7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:700px){
+@media (min-width:610px){
 .image-transition {
   width: 580px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+  
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -3139,13 +3306,29 @@ div.h7Pawn{
 
 /* ------------------------------------------ */
 
-@media (min-width:750px){
+@media (min-width:660px){
 .image-transition {
   width: 630px;
   display: block;
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  bottom: -180px;
+  right: 118.125px;
+  width: 157.5px;
+  height: 157.5px;
+}
+
+div.rules-nav{
+  position: absolute;
+  bottom: -180px;
+  right: 354.375px;
+  width: 157.5px;
+  height: 157.5px;
+}
+  
   /* Chess Piece Locations */
 
   /* White Queen */
@@ -3427,6 +3610,22 @@ div.h7Pawn{
   margin-left: auto;
 }
 
+div.ai-nav{
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  width: 85px;
+  height: 85px;
+}
+
+div.rules-nav{
+  position: absolute;
+  top: 90px;
+  left: -5px;
+  width: 85px;
+  height: 85px;
+}
+  
   /* Chess Piece Locations*/
 
   /* White Queen */
@@ -3695,6 +3894,33 @@ div.h7Pawn{
   right: -3px;
   width: 85px;
   height: 85px;
+}
+  
+}
+
+/* ------------------------------------------ */
+
+@media (min-width:910px){
+.image-transition {
+  width: 680px;
+  display: block;
+  margin-left: auto;
+}
+
+div.ai-nav-text{
+  position: absolute;
+  top: 25%;
+  right: -85px;
+  color: black;
+  visibility: visible;
+}
+  
+div.rules-nav-text{
+  position: absolute;
+  top: 25%;
+  right: -108px;
+  color: black;
+  visibility: visible;
 }
   
 }
