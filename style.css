@@ -31,18 +31,18 @@ div.rules-nav-text{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -23px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -23px;
+  right: 45px;
+  width: 20px;
+  height: 20px;
 }
   
   /* Chess Piece Locations */
@@ -328,18 +328,18 @@ div.g7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -42.5px;
+  right: 24.375px;
+  width: 32.5px;
+  height: 32.5px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -42.5px;
+  right: 73.125px;
+  width: 32.5px;
+  height: 32.5px;
 }
   
   /* Chess Piece Locations */
@@ -625,18 +625,18 @@ div.g7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -55px;
+  right: 33.75px;
+  width: 45px;
+  height: 45px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -55px;
+  right: 101.25px;
+  width: 45px;
+  height: 45px;
 }
   
   /* Chess Piece Locations */
@@ -922,18 +922,18 @@ div.g7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -67.5px;
+  right: 43.125px;
+  width: 57.5px;
+  height: 57.5px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -67.5px;
+  right: 129.375px;
+  width: 57.5px;
+  height: 57.5px;
 }
 
   /* Chess Piece Locations */
@@ -1219,18 +1219,18 @@ div.g7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -80px;
+  right: 52.5px;
+  width: 70px;
+  height: 70px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -80px;
+  right: 157.5px;
+  width: 70px;
+  height: 70px;
 }
 
   /* Chess Piece Locations */
@@ -1533,18 +1533,18 @@ div.g7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -92.5px;
+  right: 61.875px;
+  width: 82.5px;
+  height: 82.5px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -92.5px;
+  right: 185.625px;
+  width: 82.5px;
+  height: 82.5px;
 }
 
   /* Chess Piece Locations */
@@ -1830,18 +1830,18 @@ div.h7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -105px;
+  right: 71.25px;
+  width: 95px;
+  height: 95px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -105px;
+  right: 213.75px;
+  width: 95px;
+  height: 95px;
 }
   
   /* Chess Piece Locations */
@@ -2127,18 +2127,18 @@ div.h7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -117.5px;
+  right: 80.625px;
+  width: 107.5px;
+  height: 107.5px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -117.5px;
+  right: 241.875px;
+  width: 107.5px;
+  height: 107.5px;
 }
 
   /* Chess Piece Locations */
@@ -2424,18 +2424,18 @@ div.h7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -130px;
+  right: 90px;
+  width: 120px;
+  height: 120px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -130px;
+  right: 270px;
+  width: 120px;
+  height: 120px;
 }
   
   /* Chess Piece Locations */
@@ -2721,18 +2721,18 @@ div.h7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -120px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: -142.5px;
+  right: 99.375px;
+  width: 132.5px;
+  height: 132.5px;
 }
 
 div.rules-nav{
   position: absolute;
-  bottom: -120px;
-  right: 130px;
-  width: 100px;
-  height: 100px;
+  bottom: -142.5px;
+  right: 298.125px;
+  width: 132.5px;
+  height: 132.5px;
 }
 
   /* Chess Piece Locations */
@@ -3018,7 +3018,7 @@ div.h7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -160px;
+  bottom: -155px;
   right: 108.75px;
   width: 145px;
   height: 145px;
@@ -3026,7 +3026,7 @@ div.ai-nav{
 
 div.rules-nav{
   position: absolute;
-  bottom: -160px;
+  bottom: -155px;
   right: 326.25px;
   width: 145px;
   height: 145px;
@@ -3315,7 +3315,7 @@ div.h7Pawn{
 
 div.ai-nav{
   position: absolute;
-  bottom: -180px;
+  bottom: -167.5px;
   right: 118.125px;
   width: 157.5px;
   height: 157.5px;
@@ -3323,7 +3323,7 @@ div.ai-nav{
 
 div.rules-nav{
   position: absolute;
-  bottom: -180px;
+  bottom: -167.5px;
   right: 354.375px;
   width: 157.5px;
   height: 157.5px;
