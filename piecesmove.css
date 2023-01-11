@@ -16,128 +16,78 @@ div.main-container{
 
 
 
-/* Moves Board Adjustment */
 
-@media (min-width:0px){
+@media (min-width: 0px){
+div.main-container{
+  font-size: 3vw;
+}
   
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:160px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:210px){
-
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:260px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:315px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:365px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:415px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:465px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:515px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:560px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:610px){
-  
-}
-
-/* ------------------------------------------ */
-
-@media (min-width:660px){
 div.home-nav{
-  position: absolute;
-  top: 0px;
+  position: relative;
+  top: -5px;
   left: -5px;
   width: 85px;
   height: 85px;
 }
-  
-div.king-moves{
+
+div.rules-nav{
   position: absolute;
-  top: 95px;
+  top: -5px;
+  left: 90px;
+  width: 85px;
+  height: 85px;
+}
+  
+div.moves{
+  position: relative;
+  top: 5px;
   left: -5px;
-  width: 445px;
+  width: 100%;
+  margin: auto;
 }
 
-div.king-info{
-  position: absolute;
-  top: 95px;
-  left: 455px;
+div.info{
+  position: relative;
+  top: 10px;
+  left: -5px;
   font-size: 1.5em;
 }
   
 }
 
-/* ------------------------------------------ */
 
-@media (min-width:920px){
+
+
+@media (min-width: 750px){
+div.main-container{
+  font-size: 2vw;
+}
+  
 div.home-nav{
   position: absolute;
-  top: 0px;
+  top: -5px;
   left: -5px;
   width: 85px;
 }
 
 div.rules-nav{
   position: absolute;
-  top: 0px;
+  top: -5px;
   left: 90px;
   width: 85px;
 }
   
-div.king-moves{
+div.moves{
   position: absolute;
-  top: 95px;
+  top: 90px;
   left: -5px;
   width: 50%;
 }
 
-div.king-info{
+div.info{
   position: absolute;
-  top: 95px;
+  top: 90px;
   left: 51%;
-  font-size: 2em;
 }
   
 }
